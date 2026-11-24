@@ -1,0 +1,7 @@
+"rule","description","rows_flagged"
+"AGE_RANGE","Age outside plausible range",25
+"MISSING_COMPLETED","Completion status missing",60
+"SKIP_RELATED","Training-relatedness answered although not employed",20
+"SKIP_WAGE","Wage given although respondent is not employed",35
+"STRAIGHTLINE","Identical answers on all rating questions (flag only)",54
+"WAGE_RANGE","Hourly wage outside plausible range",30

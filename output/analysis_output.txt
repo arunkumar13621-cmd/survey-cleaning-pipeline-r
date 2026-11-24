@@ -1,0 +1,31 @@
+Rows in raw file: 2768 | duplicate submissions removed: 40 | respondents kept: 2728 
+
+Rule violations (rows flagged, after duplicates removed)
+              rule                                           description
+         AGE_RANGE                           Age outside plausible range
+ MISSING_COMPLETED                             Completion status missing
+      SKIP_RELATED   Training-relatedness answered although not employed
+         SKIP_WAGE        Wage given although respondent is not employed
+      STRAIGHTLINE Identical answers on all rating questions (flag only)
+        WAGE_RANGE                   Hourly wage outside plausible range
+ rows_flagged
+           25
+           60
+           20
+           35
+           54
+           30
+
+Employment within 6 months
+  Unweighted respondents : 0.633
+  Weighted by institution : 0.632 (95% CI 0.612 to 0.652)
+  True population rate    : 0.635
+
+By program area (weighted)
+                  group  rate    lo    hi   n population_truth
+               Business 0.579 0.532 0.626 507            0.585
+                 Design 0.559 0.493 0.624 258            0.522
+            Health Care 0.694 0.652 0.736 555            0.687
+            Hospitality 0.545 0.492 0.599 402            0.557
+ Information Technology 0.655 0.603 0.707 403            0.665
+                 Trades 0.695 0.655 0.735 603            0.712
